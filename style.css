@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family: The Jamsil;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    width:500px;
+    margin: 0 auto;
+}
+
+
+/* 네비게이션 바*/
+
+nav{
+    height: 80px;
+    background-color: white;
+}
+
+nav::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.nav-logo{
+    float: left;
+    margin:0;
+}
+
+.nav-menu{
+    float:right;
+}
+
+.nav-btn{
+    list-style-type: none;
+    margin:0;
+}
+
+ul.nav-btn > li{
+    font-size: 14px;
+}
+
+/* header */
+
+.hd{
+    position: relative;
+    height: 600px;
+    text-align: right;
+}
+
+.hd-title{
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+
+.hd-content{
+    font-size: 10px;
+}
+
+.hd:before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 390px;
+    height: 390px;
+    opacity: 0.5;
+    background-image: url(./og.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hd.container{
+    position: relative;
+    color: black;
+}
+
+.mainbutton{
+    background-color: white;
+}
+
+
+
+html{
+    box-sizing: border-box;
+    overflow: auto;
+    font-size: 10px;
+    font-family: The Jamsil;
+}
+
+.main{
+    width:370px;
+    height: 1500px;
+    background-image: url(og.png);
+    background-repeat: no-repeat;
+    background-size: 390px 307px;
+}
+img{
+    max-width: 100%;
+}
+
+.mainpage {
+    position: relative;
+    left: 230px;
+    top: 178px;
+    color: #FFF;
+    font-family: The Jamsil;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;   
+}
+
+h1{
+    font-weight: bold;
+    color: blue;
+}
